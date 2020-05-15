@@ -13,13 +13,13 @@ const Card = styled.div`
     
 class Pokecard extends Component {
 
-    static defaultProps = {
-        id: Math.random(),
-        name: 'Name missing',
-        img: 'Img missing',
-        type: 'Type missing',
-        base_experience: 'EXP missing'
-    }
+    // static defaultProps = {
+    //     id: Math.random(),
+    //     name: 'Name missing',
+    //     img: 'Img missing',
+    //     type: 'Type missing',
+    //     base_experience: 'EXP missing'
+    // }
 
     render() {
         //PADTHREE function takes a number compares it to 999 and if it is less it will add two zeroes to the front of the number and then SLICE off the last three numbers giving you a 3-digit number
