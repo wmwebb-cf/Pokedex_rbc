@@ -1,0 +1,18 @@
+.Pokegame {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 25px;;
+}
+.Pokegame-card {
+    width: 150px;
+    box-shadow: 7px 10px 12px -3px rgba(0,0,0,0.5);
+    padding: 10px;
+}
+.Pokegame-card img {
+    background: white;
+    border-radius: 5px;
+    height: 75px;
+    padding: 15px;;
+}
